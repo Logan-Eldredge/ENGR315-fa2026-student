@@ -22,16 +22,20 @@ max_length = 20
 upper_bound = 100
 nums = generate_random_int_list(max_length, upper_bound)
 
-for num in random_vars
-if num % 2 == 0
-random_vars.append(num)
-
-else 
-random_vars.append(num)
-# lists to hold the even and odd numbers
 # do not modify their names
 evens_list = []
 odds_list = []
+
+# lists to hold the even and odd numbers
+for num in nums:
+    if num % 2 ==0:
+       
+        evens_list.append(num)
+    else:
+        odds_list.append(num)
+
+
+
 
 """
 Step 1: Write a FOR loop to iterate through the list nums
