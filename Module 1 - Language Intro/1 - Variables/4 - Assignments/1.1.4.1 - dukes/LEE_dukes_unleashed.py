@@ -21,6 +21,7 @@ out_state_cost = 47882
 in_state_gift = in_state_cost / 0.05
 out_state_gift = out_state_cost / 0.05
 
+
 #Print findings to terminal. 
 print(f"in state gift needed is: ${in_state_gift}")
 print(f"out of state gift needed is: ${out_state_gift}")

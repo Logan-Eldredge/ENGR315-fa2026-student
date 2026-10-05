@@ -33,13 +33,14 @@ B = np.std(random_list_B)
 
 # I want longest list variable to equal the largest standard deviation, so if A is > then its A. otherwise its B. 
 if A > B:
-    longest_list_is = A
+    longest_list_is = random_list_A
 else:
-    longest_list_is = B
+    longest_list_is = random_list_B
  
 # set this variable equal to the list with the largest standard deviation
 # do not modify this variable's name, you can/should adjust the contents ;)
 # e.g. longest_list_is = myList
-longest_list_is = 
+
+#longest_list_is = comment out bc I already defined what it is. 
 
 ### YOUR CODE HERE

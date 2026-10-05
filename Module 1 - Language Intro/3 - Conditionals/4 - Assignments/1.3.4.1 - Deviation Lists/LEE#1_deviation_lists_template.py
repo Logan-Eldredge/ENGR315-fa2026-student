@@ -40,6 +40,7 @@ else:
 # set this variable equal to the list with the largest standard deviation
 # do not modify this variable's name, you can/should adjust the contents ;)
 # e.g. longest_list_is = myList
-longest_list_is = 
+
+#longest_list_is = comment out bc I already defined what it is. 
 
 ### YOUR CODE HERE

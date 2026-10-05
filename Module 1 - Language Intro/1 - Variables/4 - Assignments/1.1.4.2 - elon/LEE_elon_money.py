@@ -6,13 +6,14 @@ and "twenty_year_final", respectively. Perform all your calculations in this fil
 and simply write in the final result.
 
 Prompt: On October 27th, 2022, Elon Musk purchased Twitter for $44B in total, with reportedly $33B of his own money. Since
-that time, it appears this investment has not worked out. If Elon has instead bought $33B of US Treasury Bonds, how much
+that time, it appears this investment has not worked out. If Elon has instead bought $44B of US Treasury Bonds, how much
 would his investment be worth in 10-year and 20-year bonds? Assume the 10-year bonds pay 3.96%,
 the 20-year bonds pay 4.32%, with each compounding annually.
 Note that Elon's capital will be $33B.
 """
 
 ### all your code below ###
+#Set the variables I know
 ten_year_rate = 0.0396
 
 twenty_year_rate = 0.0432
@@ -23,17 +24,16 @@ Elon_Capital = 33000000000
 #solve for A, P is Elon_Capital, r is the interest rate, n is 1 (annual), and t = # years.
 
 ten_year_final = Elon_Capital * (1 + ten_year_rate)**10
-print(f"Elon's 10 year investment would be worth: ${ten_year_final:.2f}")
+print(f"Elon's 10 year investment would be worth: ${ten_year_final}")
 
 #For 20 years, only thing that changes is the rate and time period.
 twenty_year_final = Elon_Capital * (1 + twenty_year_rate)**20
 
-Elon_Capital * (1 + twenty_year_rate)**20
+print(f"Elon's 20 year investment would be worth: ${twenty_year_final}")
 
-print(f"Elon's 20 year investment would be worth: ${twenty_year_final:.2f}")
-
+#pring so I can see the final values...
 # final answer for 10-year
-ten_year_final = 48660509081.79
+ten_year_final = 48660509081.78675
 
 # final answer for 20-year
-twenty_year_final = 76889229275.99
+twenty_year_final = 76889229275.98897
